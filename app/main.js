@@ -3,7 +3,6 @@ function pow(x, n) {
 
   for (var i = 0; i < n; i++) {
     result += x;
-    result += x;
   }
 
   return result;
