@@ -1,0 +1,52 @@
+[
+    {
+        "code": "ooo",
+        "name": "DAO OOO",
+        "version": "1.0.0",
+        "description": "Test test",
+        "author": "",
+        "url": "http://site.ru/:address",
+        "factory": "0x1111111111",
+        "core": "Aira BuilderDAO",
+        "modules": [
+            "Aira BuilderTokenEther",
+            "Aira BuilderShareSale",
+            "Aira BuilderTokenEmission",
+            {
+                "name": "Aira BuilderMarket",
+                "params_link": {
+                    "_addr": "Aira BuilderTokenEther"
+                }
+            }
+        ]
+    },
+    {
+        "code": "test",
+        "name": "DAO TEST",
+        "version": "1.0.0",
+        "description": "Test test",
+        "author": "",
+        "url": "http://site.ru/:address",
+        "factory": "0xa76422591378d14fb6d94c9da48a42498d8b51da",
+        "core": {
+            "name": "Aira BuilderDAO",
+            "address": "0xa2175ac4dbd4713fdfec73814fab97e730826917",
+            "params": {
+                "_dao_name": "Название dao"
+            }
+        },
+        "modules": [
+            "Aira BuilderTokenEther",
+            {
+                "name": "Aira BuilderShareSale",
+                "description": "Описание модуля",
+                "params": {
+                    "_target": "Токена эмиссии"
+                },
+                "params_link": {
+                    "_target": 0
+                }
+            }
+        ]
+    }
+]
