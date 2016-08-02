@@ -35,11 +35,7 @@
             }
         },
         "modules": [
-            "Aira BuilderTokenEther",
-            {
-                "name": "Aira BuilderShareSale",
-                "description": "Описание модуля"
-            }
+            "Aira BuilderTokenEther"
         ]
     }
 ]
